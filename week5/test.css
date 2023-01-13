@@ -159,14 +159,7 @@ video.video3 {
 img.picuno {
     margin-top: 10%;
     height: 400px;
-    width: 400px;
-    border: solid;
-}
-
-img.picdos {
-    margin-top: 10%;
-    margin-left: 10%;
-    height: 400px;
-    width: 400px;
+    width: 700px;
+    margin-left: 18%;
     border: solid;
 }
