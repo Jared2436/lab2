@@ -156,3 +156,9 @@ video.video3 {
     padding-right: 100%;
 }
 
+img.picuno {
+    margin-top: 10%;
+    height: 400px;
+    width: 400px;
+    border: solid;
+}
