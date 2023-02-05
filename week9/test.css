@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;   
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+/* Header background image */
+header {
+    background-image:linear-gradient(rgba(141, 101, 101, 0.5),rgba(5, 5, 5, 0.5)), url(imahe/AnothaBlak.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.header2 {
+    background-image:linear-gradient(rgba(62, 69, 131, 0.5),rgba(5, 5, 5, 0.5)), url(imahe/AnothaBlak.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.header3 {
+    background-image:linear-gradient(rgba(32, 29, 29, 0.5),rgba(212, 208, 208, 0.5)), url(imahe/AnothaBlak.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Menu floating to right side with margins */
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+/* Divides the menu evenly */
+ul li {
+    display: inline-block;
+}
+
+/* Menu Border, Text color and paddings */
+ul li a {
+    text-decoration: none;
+    color: rgb(210, 214, 209);
+    padding: 5px 20px;
+    /* border: 1px solid rgb(239, 240, 238); */
+    transition: 0.6s ease;
+}
+
+/* Menu hover color */
+ul li a:hover {
+background-color: rgb(255, 255, 255);
+color: #000;
+}
+
+.logo img {
+    padding-top: 10px;
+    float: left;
+    width: 70px;
+    height: auto;
+}
+
+.main {
+    max-width: 1350px;
+    margin: auto;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1 {
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    width: 900px;
+    padding-left: 10%;
+}
+
+.title2 h1 {
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.title4 h1 {
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title5 h1 {
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.button {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+    box-shadow: 0 0 40px rgb(255, 255, 255);
+    }
+
+ul li.active a {
+    background-color: #fff;
+    color: #000;
+}
+
+.paragraph {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    margin-left: 0%;
+    margin-right: 4%;
+    word-spacing: 3px;
+}
+
+video.video3 {
+    padding-top: 22.4%;
+    padding-left: 0%;
+    padding-right: 100%;
+}
+
+img.picuno {
+    margin-top: 10%;
+    height: 400px;
+    width: 700px;
+    margin-left: 18%;
+    border: solid;
+}
+
