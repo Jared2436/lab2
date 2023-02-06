@@ -15,6 +15,7 @@
               <li><a href="index.php">Home</a></li>
               <li><a href="aboutt.php">About</a></li>
               <li class="active"><a href="pictures.php">Pictures</a></li>
+              <li><a href="register.php">Register</a></li>
               
             </ul>
             

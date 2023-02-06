@@ -16,6 +16,7 @@
               <li><a href="aboutt.php">About</a></li>
               <li><a href="pictures.php">Pictures</a></li>
               <li><a href="register.php">Register</a></li>
+              
         
             </ul>
         </div>
