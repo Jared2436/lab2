@@ -11,9 +11,7 @@
 <body>
     <header class="header3">
         <div class="main">
-            <div class="logo">
-            <img src="imahe/logo.png" alt="Logo">
-            </div>
+           
             <ul>
               <li><a href="index.php">Home</a></li>
               <li><a href="aboutt.php">About</a></li>
@@ -28,8 +26,8 @@
                 
             </video>
           -->    
-<div class="register">
-          <?php
+
+          <?php 
 // define variables and set to empty values
 $nameErr = $emailErr = $genderErr = $websiteErr = "";
 $name = $email = $gender = $comment = $website = "";
@@ -151,7 +149,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
     $conn->close();
 }
 ?>
-</div>
+
         
     </header>
     
