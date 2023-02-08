@@ -165,9 +165,6 @@ img.picuno {
 }
 
 div.register {
-    margin-top: 10%;
-    height: 400px;
-    width: 700px;
-    margin-left: 18%;
-    border: solid;
+    position: absolute;
+    padding-left: 20%;
 }
