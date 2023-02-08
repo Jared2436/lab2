@@ -1,13 +1,33 @@
-<!DOCTYPE HTML>  
+<!DOCTYPE html>
 <html>
 <head>
-<style>
-.error {color: #FF0000;}
-</style>
+   <style>
+     .error {color: #FF0000;}
+   </style>
+   <title>Redja's Website</title>
+   <link rel="stylesheet" type="text/css" href="test.css">
+   
 </head>
-<body>  
+<body>
+    <header class="header3">
+        <div class="main">
+           
+            <ul>
+              <li><a href="index.php">Home</a></li>
+              <li><a href="aboutt.php">About</a></li>
+              <li class="active"><a href="pictures.php">Pictures</a></li>
+              <li><a href="register.php">Register</a></li>
+              
+            </ul>
+            
+        </div>
+          <!--  <video class="video3" height="40%" width="40%" controls>
+                <source src="imahe/lulu.mp" type="video/mp4">
+                
+            </video>
+          -->    
 
-<?php
+          <?php 
 // define variables and set to empty values
 $nameErr = $emailErr = $genderErr = $websiteErr = "";
 $name = $email = $gender = $comment = $website = "";
@@ -129,6 +149,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
     $conn->close();
 }
 ?>
-<a href="guest.php">Guest</a>
+
+        
+    </header>
+    
 </body>
 </html>
