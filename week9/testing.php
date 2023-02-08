@@ -28,7 +28,7 @@
                 
             </video>
           -->    
-
+<div class="register">
           <?php
 // define variables and set to empty values
 $nameErr = $emailErr = $genderErr = $websiteErr = "";
@@ -151,7 +151,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
     $conn->close();
 }
 ?>
-
+</div>
         
     </header>
     
