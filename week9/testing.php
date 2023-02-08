@@ -28,8 +28,6 @@
                 
             </video>
           -->    
-
-        <img class="picuno" src="imahe/jaredandsquad.png" alt="squad">
         
     </header>
     <?php
