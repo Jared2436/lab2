@@ -6,7 +6,6 @@
    </style>
    <title>Redja's Website</title>
    <link rel="stylesheet" type="text/css" href="test.css">
-   <link href="https://fonts.googleapis.com/css?family=Open%20Sans%3A300%2C300i%2C400%2C400i%2C600%2C600i%2C700%2C700i%7CRaleway%3A300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%7CPoppins%3A300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i">
 </head>
 <body>
     <header class="header3">
