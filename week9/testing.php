@@ -28,9 +28,8 @@
                 
             </video>
           -->    
-        
-    </header>
-    <?php
+
+          <?php
 // define variables and set to empty values
 $nameErr = $emailErr = $genderErr = $websiteErr = "";
 $name = $email = $gender = $comment = $website = "";
@@ -151,6 +150,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 
     $conn->close();
 }
-?>    
+?>
+
+        
+    </header>
+    
 </body>
 </html>
