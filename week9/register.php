@@ -106,9 +106,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 {
 
     $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "mydb";
+    $username = "webprogmi212";
+    $password = "webprogmi212";
+    $dbname = "webprogmi212";
 
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
@@ -117,8 +117,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
     die("Connection failed: " . $conn->connect_error);
     }
 
-    $sql = "INSERT INTO MyGuests (firstname, lastname, email)
-    VALUES ('$name', ' ', '$email')";
+    $sql = "INSERT INTO jbdeleon (name, email, website, comment, gender)
+    VALUES ('$name', '$email', '$website', '$comment', '$gender')";
 
     if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
